@@ -10,8 +10,8 @@ use UNISIM.Vcomponents.all;
 entity DIY_Flash_ADC is
    Port ( LED     : out STD_LOGIC_VECTOR(3 downto 0);
           clk      : in STD_LOGIC;
-			 p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15 : inout STD_LOGIC;
-			 n0,n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11,n12,n13,n14,n15 : inout STD_LOGIC;
+			 p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15 : in STD_LOGIC;
+			 n0,n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11,n12,n13,n14,n15 : in STD_LOGIC;
 
 				HSYNC : out std_logic;
 				VSYNC : out std_logic;
